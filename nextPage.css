@@ -1,0 +1,205 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url('pict/bg2.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+#header{
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+
+.nama{
+    text-decoration: none;
+    margin: 0.5cm 0cm 0cm 2cm;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: #fcf6f5ff;
+
+}
+
+#menu{
+    margin: 0.5cm 2cm 0cm 0cm;
+    float: right;
+}
+
+ #menu a{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding-right: 0.5cm;
+     text-decoration: none;
+     font-size: large;
+}
+
+.link1{
+    color:  #fcf6f5ff;
+}
+.link1:hover{
+    color:tomato;
+}
+
+.link2{
+    color: #fcf6f5ff;
+}
+.link2:hover{
+    color: whitesmoke;
+}
+
+.link3{
+    color: #b545de;
+}
+.link3:hover{
+    color: salmon;
+}
+
+#welcome{
+    height: 635px;
+}
+
+.img1{
+    margin-top: 3.5cm;
+    margin-left: 8cm;
+    height: 3cm;
+    width: 3cm;
+    -webkit-animation: rotationVsco 15s infinite linear;
+}
+
+@-webkit-keyframes rotationVsco {
+    from { -webkit-transform: rotate(359deg); }
+    to   { -webkit-transform: rotate(0deg); }
+}
+
+.img2{
+    margin-top: 1cm;
+    margin-left: 12cm;
+    height: 2.5cm;
+    width: 2.5cm;
+    -webkit-animation: rotationIg 8s infinite linear;
+}
+
+@-webkit-keyframes rotationIg {
+    from { -webkit-transform: rotate(0deg); }
+    to   { -webkit-transform: rotate(359deg); }
+}
+
+.img3{
+    margin-left: 15cm;
+    height: 2.5cm;
+    width: 3cm;
+    -webkit-animation: rotationLinkedin 3s infinite linear alternate;
+}
+
+@-webkit-keyframes rotationLinkedin{
+    from { -webkit-transform: rotate(20deg);}
+    to { -webkit-transform: rotate(-20deg);}
+}
+
+.img4{
+    margin-left: 8cm;
+    height: 3cm;
+    width: 4cm;
+    -webkit-animation: rotationGmail 2s infinite linear alternate;
+}
+
+@-webkit-keyframes rotationGmail{
+    from { -webkit-transform: rotate(-15deg);}
+    to { -webkit-transform: rotate(15deg);}
+}
+
+.mypic{
+    transform: rotate(-5deg);
+}
+
+#about{
+    height: 635px;
+}
+
+#aboutme{
+    margin-top: 0cm;
+    padding-top: 4.7cm;
+    font-size: 50px;
+}
+
+#box{
+    border-radius: 20px;
+    background-color: #8abad3ff;
+    color: #fcf6f5ff;
+}
+
+.highlight{
+    border-radius: 20px;
+    background-color: #6e5da1;
+}
+
+.linkab{
+    text-decoration: none;
+    color: #fcf6f5ff;
+}
+
+.text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:20px;
+    color: #fcf6f5ff;
+
+}
+
+/*#contact{
+    height: 16.8cm;
+    background-color: cornflowerblue;
+}
+
+#con{
+    margin-top: 0cm;
+    padding-top: 6cm;
+    margin-bottom: 1.5cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#em{
+    margin-right: 18%;
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+ #em:hover{
+     color: tomato ;
+ }
+
+#li{
+    margin-left: 18%;
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#li:hover{
+    color: tomato;
+}*/
+
+#footer{
+    background-color: rgb(59, 50, 81);
+    opacity: 0.5;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #fcf6f5ff;
+}
+
+#time{
+    font-size: medium;
+    font-family: monospace;
+}

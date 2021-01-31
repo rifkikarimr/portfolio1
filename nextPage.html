@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nextPage.css">
+    <link rel="icon" type="png" href="pict/me.png">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!--header-->
+    <div id="header">
+        <!--Nama-->
+        <a href ="#welcome"class="nama"><b>Rifki Karim Ramadhan</b></p>
+        <!--Menu Bar-->
+        <div id="menu">
+            <a href="#welcome" class="link1"><b>Home</b></a>
+            <a href="#about" class="link2"><b>About</b></a>
+            <!--<a href="#contact" class="link3"><b>Contact</b></a>-->
+        </div>
+    </div>
+
+    <!--Welcome-->
+    <div id="welcome">
+        <div id="twitter">
+        <a href="https://twitter.com/benzeemaaa_" target="_blank"><img class="img1" src="pict/twitter.png"></a>
+        <a href="https://linkedin.com/in/rifkikarimr" target="_blank"><img class="img3" src="pict/linkedin.png"></a>
+        </div>
+        <center>
+            <img class="mypic" src="pict/me.png" width="180px" height="170px">
+        </center>
+        <div id="ig">
+        <a href="mailto:rifkikarimr@gmail.com?" target="_blank"><img class="img4" src="pict/gmail.png"></a>
+        <a href="https://instagram.com/rifkikarim.r" target="_blank"><img class="img2" src="pict/ig.png"></a>
+        </div>
+    </div>
+
+    <!--Body-->
+    <div id="about">
+        <h1 id="aboutme" align="center"> <mark id="box">About me!</mark> </h1>
+        <p  class="text" align="center">Aloha! I'm a 4th year Computer Engineering student at University of Brawijaya.</p>
+        <p class="text" align="center">Currently, i'm learning about microcontroller programming with C and Arduino assembly language and i'm interesting about web development.</p>
+        <p class="text" align="center">If you want to know about my experiences, check out my <mark class="highlight">
+            <a class="linkab" href="https://linkedin.com/in/rifkikarimr" target="_blank">Linkedin</a></mark></p>
+        <p class="text" align="center">And if you're interested in what I do on social media, you can visit my Social Media on my <mark class="highlight">
+            <a class="linkab" href="https://twitter.com/benzeemaaa_">Twitter</a></mark> and <mark class="highlight">
+            <a class="linkab" href="https://instagram.com/rifkikarim.r">Instagram</a></mark></p>
+    </div>
+
+    <!--Contact
+    <div id="contact">
+        <center>
+        <h1 id="con">Contact</h1>
+        <a id="em" href="" target="_blank">email</a>
+        <a id="li" href="" target="_blank">linkedin</a>
+        </center>
+    </div>-->
+
+    <!--Footer-->
+    <div id="footer">
+        <center>
+        <p>Rifki Karim Ramadhan &copy; 2021</p>
+        <p id="time"></p>
+        </center>
+    </div>
+
+    <script type="text/javascript">
+        // 1 detik = 1000
+        window.setTimeout("waktu()",1000);
+        function waktu() {
+        var tanggal = new Date();
+        setTimeout("waktu()",1000);
+        document.getElementById("time").innerHTML = tanggal.getHours()+":"+tanggal.getMinutes()+":"+tanggal.getSeconds();
+        }
+    </script>
+</body>
+
+</html>
